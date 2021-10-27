@@ -5,7 +5,7 @@ image_file_list_py2 = [file for file in file_list if file.endswith('.jpg')]
 image_file_list_py2.sort()
 image_file_list_py2
 
-#원본 이미지 파일에서 이미지를 불러다가 명도 조절해서 다른 파일
+#원본 이미지 파일에서 이미지를 불러다가 명도 조절해서 다른 파일에 넣어주기
 for i in range(len(image_file_list_py)):
   path = "/content/drive/MyDrive/객체탐지/add/"
 
